@@ -1,0 +1,63 @@
+**SAYISAL VERİ TİPLERİ;
+
+--bigint :Tamsayı veri tipidir. 8 byte yer kaplar. -2^63 ile 2^63-1 arasında değer alır.
+
+--int :Tamsayı veri tipidir. 4 byte yer kaplar. -2^31 ile 2^31-1 arasında değer alır.
+
+--smallint:Tamsayı veri tipidir. 2 byte yer kaplar. -2^15 ile 2^15-1 arasında değer alır.
+
+--tinyint:Tamsayı veri tipidir. 1 byte yer kaplar. 0 ile 255 arasında değer alır.
+
+--bit :0 ve 1 değerlerini alır. 1 byte yer kaplar.
+
+**ONDALIK SAYI VERİ TİPLERİ;
+
+--decimal / numeric :Ondalıklı sayı veri tipidir. 1 byte yer kaplar. -10^38 ile 10^38 arasında değer alır.
+
+--money:Ondalıklı sayı veri tipidir. 8 byte yer kaplar. -922337203685477.5808 ile 922337203685477.5807 arasında değer alır.
+
+--smallmoney:Ondalıklı sayı veri tipidir. 4 byte yer kaplar. -214748.3648 ile 214748.3647 arasında değer alır.
+
+--float:Ondalıklı sayı veri tipidir. 8 byte yer kaplar. -1.79E + 308 ile 1.79E + 308 arasında değer alır.
+
+--real:Ondalıklı sayı veri tipidir. 4 byte yer kaplar. -3.40E + 38 ile 3.40E + 38 arasında değer alır.
+
+**METİN(STRING) VERİ TİPLERİ;
+
+--char:Sabit uzunluklu karakter veri tipidir.
+
+--varchar:Değişken uzunluklu karakter veri tipidir.
+
+--varchar(MAX)
+
+--text:Belirtilenden az değer girilse bile boyutu kadar yer kaplar.2GB’a kadar metinsel veri depolar.Unicode’u desteklemez.
+
+--ntext:Text’den farklı olarak girilen karakter boyutu kadar yer kaplar ve unicode’u destekler.
+
+**TARİH-SAAT VERİ TİPLERİ;
+
+--date:Tarih veri tipidir. 4 byte yer kaplar.
+
+--smalldate:Tarih veri tipidir. 3 byte yer kaplar.
+
+--datetime:Tarih ve zaman veri tipidir. 8 byte yer kaplar.
+
+--datetime2:Tarih ve zaman veri tipidir. 8 byte yer kaplar.
+
+--datetimeoffset:Tarih ve zaman veri tipidir. 10 byte yer kaplar.
+
+--time:Zaman veri tipidir. 5 byte yer kaplar.
+
+
+**DİĞER VERİ TİPLERİ;
+
+--image
+--binary
+--varbinary
+--varbinary(MAX)
+--Xml:XML türünde veri saklamak için kullanılır.
+--Table
+--uniqueidentifier:6 byte uzunluğunda benzersiz GUID tipinde veri tutar.İki GUID birbirinden tamamen farklıdır eşit olamazlar.
+--hierarchyid:Ağaç veri modeli ve ya hiyerarşik olarak sınflandırılmış verileri saklamak için kullanılır.
+--geography:Coğrafi koordinat ve GPS verilerini tutmak için kullanılır.
+--geometry:Öklid koordinat sistemine ait verileri tutmak için kullanılır.Geometrik şekillerin en-boy-yükselik verilerini saklar.
