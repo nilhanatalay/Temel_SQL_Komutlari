@@ -1,0 +1,1 @@
+# Temel_SQL_Komutlari
